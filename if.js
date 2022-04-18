@@ -37,3 +37,15 @@ function teste1(num){
         
 teste1(6)
 teste1(8)
+
+Number.prototype.entre = function(inicio, fim){
+    return this >= inicio && this <= fim
+}
+const imprimirResultado = function(nota){
+    if (nota.entre(9,10)) {
+        console.log('quadro de honra')
+    } else if (nota.entre(9,8.99)){
+        console.log('aprovado')        
+    }
+
+}
