@@ -26,3 +26,14 @@ seForVerdadeEuFalo ('?')
 seForVerdadeEuFalo([])
 seForVerdadeEuFalo([1,2])
 seForVerdadeEuFalo({})
+
+function teste1(num){
+    if (num>7) {
+        console.log(num)
+    }else{
+        console.log('final')
+    }
+}
+        
+teste1(6)
+teste1(8)
