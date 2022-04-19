@@ -1,5 +1,5 @@
 const imprimirResultado = function(nota) {
-    switch (Math,floor(nota)) {
+    switch (Math.floor(nota)) {
         case 1:
             break
         case 0: 
@@ -10,9 +10,9 @@ const imprimirResultado = function(nota) {
         }
 }
 imprimirResultado(10)
-/*
-const nota = '10';
-switch (nota) {
+
+const num = '10';
+switch (num) {
   case '8':
     console.log('reprovado');
     break;
