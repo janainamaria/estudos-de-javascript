@@ -21,3 +21,15 @@ function soma (a,b){
     }
 }
 soma(10,5)(4)
+
+
+
+
+function arroz (tempero){
+if(tempero == 'sazon'){
+    console.log('o tempero ' + tempero +' não presta')
+} else {
+    console.log('o tempero ' + tempero + ' é bom')
+}
+}
+arroz('sal')
