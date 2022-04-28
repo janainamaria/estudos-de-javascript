@@ -3,7 +3,8 @@ function area(largura, altura){
     if (area > 20) {
         console.log(`valor acima do permitido ${area} n2.`)
     }else{
-        return new console.error();
+        return area
+        
     }
 }
 area(1,2)
