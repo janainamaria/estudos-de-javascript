@@ -1,9 +1,9 @@
 function pessoa (){
     this.idade = 0
-
+    const self = this
     setInterval (function(){ // temporizador executando função
-        this.idade++
-        console.log(this.idade)
+        self.idade++
+        console.log(self.idade)
     } , 1000)
 }
 
