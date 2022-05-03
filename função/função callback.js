@@ -8,3 +8,6 @@ function imprimir(nome, indice){
 }
 
 fabricantes.forEach(imprimir)
+
+// função passada que sera chamada quando o evento acontecer
+//evento no exemplo é o loop
