@@ -8,5 +8,4 @@ dobro = (a) =>{
     return 2 * a 
 }
 // mais reduzida
-
 dobro = a => 2 * a
